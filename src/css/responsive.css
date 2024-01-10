@@ -1,0 +1,39 @@
+@media (max-width: 768px){
+    .logo .image-logo{
+        width: 30%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .container .image{
+        width: 80%;
+    }
+    .container .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 8%;
+        padding: 0;
+    }
+    .container .info .title{
+        margin: 0;
+        font-size: 25px;
+    }
+    .container .info .description{
+        font-size: 16px;
+    }
+    .container .info .btn{
+        width: 75%;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10% 0;
+    }
+}
